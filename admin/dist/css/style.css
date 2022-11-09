@@ -1,0 +1,50 @@
+/* My CSS */
+.cat_btn{
+    width: 100%;
+    margin-top: 10px;
+    outline: none
+    }
+.cat_btn:hover{
+    outline: none;
+    border: none;
+}
+fa.fa-trash{
+    color: red;
+}
+fa.fa-edit{
+    color: darkblue;
+}
+.no-print{
+    display: none;
+}
+.btn.btn-flat.login-btn:hover , .btn.btn-flat.login-btn:active , .btn.btn-flat.login-btn:focus
+{
+    border: none !important;
+    /* outline: none; */
+    border-width: 0px !important;
+}
+.log_fie_err {
+    text-align: center;
+    color: #f44336;
+    font-weight: 600;
+    padding: 10px 0px 0px;
+}
+input.form-control::placeholder , textarea.form-control::placeholder{
+    color: #000000;
+}
+/* .skin-blue .main-sidebar{
+    background-color:#fff !important;
+} */
+.statusbtn{
+    padding: 6px 20px !important;
+}
+
+.statusbtn a{
+    color: #fff !important;
+}
+.fa.fa-trash{
+ cursor: pointer;
+}
+.order_details{
+    width: 50px;
+}
